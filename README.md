@@ -68,6 +68,23 @@ The [INVALID] state color of the Field's Background, Border, Text as well as the
 ```
 
 ### Internal Stuff
+#### validationMode
+You can set the validation mode programmaticaly:
+```swift
+enum ValidationMode: Int {
+    case name = 0,email,password,confirmPassword
+}
+
+nameField.validationMode = .name
+```
+#### mode
+Inspectable variable to set validation mode (See ValidationMode Enum)
+```
+     0 = Name , Surname
+     1 = Email
+     2 = Password
+     3 = Confirm PassWord
+```
 #### text
 Getter for the text field's text
 ```swift
