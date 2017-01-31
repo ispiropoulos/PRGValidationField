@@ -78,7 +78,7 @@ enum ValidationMode: Int {
 nameField.validationMode = .name
 ```
 #### mode
-Inspectable variable to set validation mode (See ValidationMode Enum)
+`@IBInspectable` property to set validation mode (See ValidationMode Enum)
 ```
      0 = Name , Surname
      1 = Email
