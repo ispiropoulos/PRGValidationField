@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="KDE-LC-cSf">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="gJZ-ac-swP">
+            <objects>
+                <viewController id="KDE-LC-cSf" customClass="ViewController" customModule="PRGValidationField_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9k3-dj-9tl"/>
+                        <viewControllerLayoutGuide type="bottom" id="rkt-3z-N6t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="63q-O0-3w4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jAp-az-Rqz" customClass="PRGValidationField" customModule="PRGValidationField_Example" customModuleProvider="target">
+                                <rect key="frame" x="8" y="40" width="148" height="65.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fieldTitle" value="First Name"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorMessage" value="Please enter your name"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                        <color key="value" cocoaTouchSystemColor="darkTextColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="mode">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Enter name"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="hideError" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JU5-df-wBz" customClass="PRGValidationField" customModule="PRGValidationField_Example" customModuleProvider="target">
+                                <rect key="frame" x="8" y="186.5" width="304" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fieldTitle" value="Password"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorMessage" value="Please enter a password of at least 6 characters long"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="mode">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Enter password"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pgg-wa-pCY" customClass="PRGValidationField" customModule="PRGValidationField_Example" customModuleProvider="target">
+                                <rect key="frame" x="8" y="251.5" width="304" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fieldTitle" value="Confirm Password"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorMessage" value="Password does not match. Please try again."/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="mode">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Confirm password"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QjV-2x-yb3" customClass="PRGValidationField" customModule="PRGValidationField_Example" customModuleProvider="target">
+                                <rect key="frame" x="164" y="40" width="148" height="65.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fieldTitle" value="Surname"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorMessage" value="Please enter your surname"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="mode">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Enter password"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="318-Qq-Fsp" customClass="PRGValidationField" customModule="PRGValidationField_Example" customModuleProvider="target">
+                                <rect key="frame" x="8" y="121.5" width="304" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fieldTitle" value="Email"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="errorMessage" value="Please enter a correct email address"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="mode">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Enter email address"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZo-w2-9zl">
+                                <rect key="frame" x="8" y="316.5" width="304" height="40"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.80000000000000004" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nKL-fW-FUZ"/>
+                                </constraints>
+                                <state key="normal" title="Enabled">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <state key="disabled" title="Disabled"/>
+                                <connections>
+                                    <action selector="registerButtonTapped:" destination="KDE-LC-cSf" eventType="touchUpInside" id="acn-fZ-MSo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="318-Qq-Fsp" firstAttribute="leading" secondItem="63q-O0-3w4" secondAttribute="leading" constant="8" id="2dS-Ok-vkb"/>
+                            <constraint firstItem="jAp-az-Rqz" firstAttribute="leading" secondItem="63q-O0-3w4" secondAttribute="leading" constant="8" id="4QH-qt-qFF"/>
+                            <constraint firstAttribute="trailing" secondItem="pgg-wa-pCY" secondAttribute="trailing" constant="8" id="7CC-jz-HNA"/>
+                            <constraint firstItem="VZo-w2-9zl" firstAttribute="top" secondItem="pgg-wa-pCY" secondAttribute="bottom" constant="16" id="9po-G4-UaJ"/>
+                            <constraint firstItem="pgg-wa-pCY" firstAttribute="leading" secondItem="63q-O0-3w4" secondAttribute="leading" constant="8" id="D9L-pe-LQM"/>
+                            <constraint firstItem="QjV-2x-yb3" firstAttribute="leading" secondItem="jAp-az-Rqz" secondAttribute="trailing" constant="8" id="FxK-CR-gOf"/>
+                            <constraint firstItem="VZo-w2-9zl" firstAttribute="leading" secondItem="63q-O0-3w4" secondAttribute="leading" constant="8" id="JUo-Nl-oDj"/>
+                            <constraint firstItem="JU5-df-wBz" firstAttribute="leading" secondItem="63q-O0-3w4" secondAttribute="leading" constant="8" id="Lbe-6b-dS8"/>
+                            <constraint firstItem="QjV-2x-yb3" firstAttribute="top" secondItem="jAp-az-Rqz" secondAttribute="top" id="LuD-RF-HSJ"/>
+                            <constraint firstItem="QjV-2x-yb3" firstAttribute="width" secondItem="jAp-az-Rqz" secondAttribute="width" id="N1w-ug-ylg"/>
+                            <constraint firstItem="JU5-df-wBz" firstAttribute="top" secondItem="318-Qq-Fsp" secondAttribute="bottom" constant="16" id="NZE-Ml-CjU"/>
+                            <constraint firstAttribute="trailing" secondItem="JU5-df-wBz" secondAttribute="trailing" constant="8" id="OjK-h8-Rkk"/>
+                            <constraint firstAttribute="trailing" secondItem="318-Qq-Fsp" secondAttribute="trailing" constant="8" id="Uek-jf-tvw"/>
+                            <constraint firstAttribute="trailing" secondItem="VZo-w2-9zl" secondAttribute="trailing" constant="8" id="Xnw-6f-eUl"/>
+                            <constraint firstItem="jAp-az-Rqz" firstAttribute="top" secondItem="9k3-dj-9tl" secondAttribute="bottom" constant="20" id="fvs-vJ-NIc"/>
+                            <constraint firstItem="pgg-wa-pCY" firstAttribute="top" secondItem="JU5-df-wBz" secondAttribute="bottom" constant="16" id="gEI-Wv-kYb"/>
+                            <constraint firstAttribute="trailing" secondItem="QjV-2x-yb3" secondAttribute="trailing" constant="8" id="xXe-HV-pUf"/>
+                            <constraint firstItem="318-Qq-Fsp" firstAttribute="top" secondItem="jAp-az-Rqz" secondAttribute="bottom" constant="16" id="yrO-AV-6xJ"/>
+                            <constraint firstItem="318-Qq-Fsp" firstAttribute="top" secondItem="QjV-2x-yb3" secondAttribute="bottom" constant="16" id="zqp-bO-AGZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="confirmPasswordField" destination="pgg-wa-pCY" id="sfv-Xv-EbN"/>
+                        <outlet property="emailField" destination="318-Qq-Fsp" id="XHj-tj-MC5"/>
+                        <outlet property="nameField" destination="jAp-az-Rqz" id="0Yw-O3-c2j"/>
+                        <outlet property="passwordField" destination="JU5-df-wBz" id="TT7-ED-A9Q"/>
+                        <outlet property="registerButton" destination="VZo-w2-9zl" id="dfA-YY-vCM"/>
+                        <outlet property="surnameField" destination="QjV-2x-yb3" id="Pe6-eb-t7p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VxR-qu-p0m" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="63" y="30"/>
+        </scene>
+    </scenes>
+</document>

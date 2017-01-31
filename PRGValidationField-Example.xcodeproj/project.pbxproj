@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		126419A01E40D42B00166822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1264199F1E40D42B00166822 /* AppDelegate.swift */; };
+		126419A21E40D42B00166822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126419A11E40D42B00166822 /* ViewController.swift */; };
+		126419A51E40D42B00166822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126419A31E40D42B00166822 /* Main.storyboard */; };
+		126419A71E40D42B00166822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126419A61E40D42B00166822 /* Assets.xcassets */; };
+		126419AA1E40D42B00166822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126419A81E40D42B00166822 /* LaunchScreen.storyboard */; };
+		126419B51E40D42B00166822 /* PRGValidationField_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126419B41E40D42B00166822 /* PRGValidationField_ExampleTests.swift */; };
+		126419C01E40D42C00166822 /* PRGValidationField_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126419BF1E40D42C00166822 /* PRGValidationField_ExampleUITests.swift */; };
+		126419D51E40D43700166822 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419CD1E40D43700166822 /* Nunito-Black.ttf */; };
+		126419D61E40D43700166822 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419CE1E40D43700166822 /* Nunito-Bold.ttf */; };
+		126419D71E40D43700166822 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419CF1E40D43700166822 /* Nunito-ExtraBold.ttf */; };
+		126419D81E40D43700166822 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419D01E40D43700166822 /* Nunito-Light.ttf */; };
+		126419D91E40D43700166822 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419D11E40D43700166822 /* Nunito-Medium.ttf */; };
+		126419DA1E40D43700166822 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419D21E40D43700166822 /* Nunito-Regular.ttf */; };
+		126419DB1E40D43700166822 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419D31E40D43700166822 /* Nunito-SemiBold.ttf */; };
+		126419E51E40D4A000166822 /* PRGValidationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126419DD1E40D4A000166822 /* PRGValidationField.swift */; };
+		126419E61E40D4A000166822 /* PRGValidationField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126419DE1E40D4A000166822 /* PRGValidationField.xib */; };
+		126419E71E40D4A000166822 /* PRGVFInvalid.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419DF1E40D4A000166822 /* PRGVFInvalid.png */; };
+		126419E81E40D4A000166822 /* PRGVFInvalid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419E01E40D4A000166822 /* PRGVFInvalid@2x.png */; };
+		126419E91E40D4A000166822 /* PRGVFInvalid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419E11E40D4A000166822 /* PRGVFInvalid@3x.png */; };
+		126419EA1E40D4A000166822 /* PRGVFValid.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419E21E40D4A000166822 /* PRGVFValid.png */; };
+		126419EB1E40D4A000166822 /* PRGVFValid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419E31E40D4A000166822 /* PRGVFValid@2x.png */; };
+		126419EC1E40D4A000166822 /* PRGVFValid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419E41E40D4A000166822 /* PRGVFValid@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		126419B11E40D42B00166822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 126419941E40D42B00166822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1264199B1E40D42B00166822;
+			remoteInfo = "PRGValidationField-Example";
+		};
+		126419BC1E40D42C00166822 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 126419941E40D42B00166822 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1264199B1E40D42B00166822;
+			remoteInfo = "PRGValidationField-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1264199C1E40D42B00166822 /* PRGValidationField-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PRGValidationField-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1264199F1E40D42B00166822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		126419A11E40D42B00166822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		126419A41E40D42B00166822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		126419A61E40D42B00166822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		126419A91E40D42B00166822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		126419AB1E40D42B00166822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126419B01E40D42B00166822 /* PRGValidationField-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PRGValidationField-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		126419B41E40D42B00166822 /* PRGValidationField_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRGValidationField_ExampleTests.swift; sourceTree = "<group>"; };
+		126419B61E40D42B00166822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126419BB1E40D42C00166822 /* PRGValidationField-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PRGValidationField-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		126419BF1E40D42C00166822 /* PRGValidationField_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRGValidationField_ExampleUITests.swift; sourceTree = "<group>"; };
+		126419C11E40D42C00166822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126419CD1E40D43700166822 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		126419CE1E40D43700166822 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		126419CF1E40D43700166822 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		126419D01E40D43700166822 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		126419D11E40D43700166822 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		126419D21E40D43700166822 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		126419D31E40D43700166822 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		126419DD1E40D4A000166822 /* PRGValidationField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRGValidationField.swift; sourceTree = "<group>"; };
+		126419DE1E40D4A000166822 /* PRGValidationField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRGValidationField.xib; sourceTree = "<group>"; };
+		126419DF1E40D4A000166822 /* PRGVFInvalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRGVFInvalid.png; sourceTree = "<group>"; };
+		126419E01E40D4A000166822 /* PRGVFInvalid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFInvalid@2x.png"; sourceTree = "<group>"; };
+		126419E11E40D4A000166822 /* PRGVFInvalid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFInvalid@3x.png"; sourceTree = "<group>"; };
+		126419E21E40D4A000166822 /* PRGVFValid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRGVFValid.png; sourceTree = "<group>"; };
+		126419E31E40D4A000166822 /* PRGVFValid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFValid@2x.png"; sourceTree = "<group>"; };
+		126419E41E40D4A000166822 /* PRGVFValid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFValid@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		126419991E40D42B00166822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126419AD1E40D42B00166822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126419B81E40D42C00166822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126419931E40D42B00166822 = {
+			isa = PBXGroup;
+			children = (
+				1264199E1E40D42B00166822 /* PRGValidationField-Example */,
+				126419B31E40D42B00166822 /* PRGValidationField-ExampleTests */,
+				126419BE1E40D42C00166822 /* PRGValidationField-ExampleUITests */,
+				1264199D1E40D42B00166822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1264199D1E40D42B00166822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1264199C1E40D42B00166822 /* PRGValidationField-Example.app */,
+				126419B01E40D42B00166822 /* PRGValidationField-ExampleTests.xctest */,
+				126419BB1E40D42C00166822 /* PRGValidationField-ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1264199E1E40D42B00166822 /* PRGValidationField-Example */ = {
+			isa = PBXGroup;
+			children = (
+				126419DC1E40D4A000166822 /* PRGValidationField */,
+				126419D41E40D43700166822 /* Fonts */,
+				1264199F1E40D42B00166822 /* AppDelegate.swift */,
+				126419A11E40D42B00166822 /* ViewController.swift */,
+				126419A31E40D42B00166822 /* Main.storyboard */,
+				126419A61E40D42B00166822 /* Assets.xcassets */,
+				126419A81E40D42B00166822 /* LaunchScreen.storyboard */,
+				126419AB1E40D42B00166822 /* Info.plist */,
+			);
+			path = "PRGValidationField-Example";
+			sourceTree = "<group>";
+		};
+		126419B31E40D42B00166822 /* PRGValidationField-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				126419B41E40D42B00166822 /* PRGValidationField_ExampleTests.swift */,
+				126419B61E40D42B00166822 /* Info.plist */,
+			);
+			path = "PRGValidationField-ExampleTests";
+			sourceTree = "<group>";
+		};
+		126419BE1E40D42C00166822 /* PRGValidationField-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				126419BF1E40D42C00166822 /* PRGValidationField_ExampleUITests.swift */,
+				126419C11E40D42C00166822 /* Info.plist */,
+			);
+			path = "PRGValidationField-ExampleUITests";
+			sourceTree = "<group>";
+		};
+		126419D41E40D43700166822 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				126419CD1E40D43700166822 /* Nunito-Black.ttf */,
+				126419CE1E40D43700166822 /* Nunito-Bold.ttf */,
+				126419CF1E40D43700166822 /* Nunito-ExtraBold.ttf */,
+				126419D01E40D43700166822 /* Nunito-Light.ttf */,
+				126419D11E40D43700166822 /* Nunito-Medium.ttf */,
+				126419D21E40D43700166822 /* Nunito-Regular.ttf */,
+				126419D31E40D43700166822 /* Nunito-SemiBold.ttf */,
+			);
+			name = Fonts;
+			path = ../../JSValidationField/JSValidationField/Fonts;
+			sourceTree = "<group>";
+		};
+		126419DC1E40D4A000166822 /* PRGValidationField */ = {
+			isa = PBXGroup;
+			children = (
+				126419DD1E40D4A000166822 /* PRGValidationField.swift */,
+				126419DE1E40D4A000166822 /* PRGValidationField.xib */,
+				126419DF1E40D4A000166822 /* PRGVFInvalid.png */,
+				126419E01E40D4A000166822 /* PRGVFInvalid@2x.png */,
+				126419E11E40D4A000166822 /* PRGVFInvalid@3x.png */,
+				126419E21E40D4A000166822 /* PRGVFValid.png */,
+				126419E31E40D4A000166822 /* PRGVFValid@2x.png */,
+				126419E41E40D4A000166822 /* PRGVFValid@3x.png */,
+			);
+			path = PRGValidationField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1264199B1E40D42B00166822 /* PRGValidationField-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126419C41E40D42C00166822 /* Build configuration list for PBXNativeTarget "PRGValidationField-Example" */;
+			buildPhases = (
+				126419981E40D42B00166822 /* Sources */,
+				126419991E40D42B00166822 /* Frameworks */,
+				1264199A1E40D42B00166822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PRGValidationField-Example";
+			productName = "PRGValidationField-Example";
+			productReference = 1264199C1E40D42B00166822 /* PRGValidationField-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		126419AF1E40D42B00166822 /* PRGValidationField-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126419C71E40D42C00166822 /* Build configuration list for PBXNativeTarget "PRGValidationField-ExampleTests" */;
+			buildPhases = (
+				126419AC1E40D42B00166822 /* Sources */,
+				126419AD1E40D42B00166822 /* Frameworks */,
+				126419AE1E40D42B00166822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				126419B21E40D42B00166822 /* PBXTargetDependency */,
+			);
+			name = "PRGValidationField-ExampleTests";
+			productName = "PRGValidationField-ExampleTests";
+			productReference = 126419B01E40D42B00166822 /* PRGValidationField-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		126419BA1E40D42C00166822 /* PRGValidationField-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126419CA1E40D42C00166822 /* Build configuration list for PBXNativeTarget "PRGValidationField-ExampleUITests" */;
+			buildPhases = (
+				126419B71E40D42C00166822 /* Sources */,
+				126419B81E40D42C00166822 /* Frameworks */,
+				126419B91E40D42C00166822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				126419BD1E40D42C00166822 /* PBXTargetDependency */,
+			);
+			name = "PRGValidationField-ExampleUITests";
+			productName = "PRGValidationField-ExampleUITests";
+			productReference = 126419BB1E40D42C00166822 /* PRGValidationField-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		126419941E40D42B00166822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Programize;
+				TargetAttributes = {
+					1264199B1E40D42B00166822 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					126419AF1E40D42B00166822 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1264199B1E40D42B00166822;
+					};
+					126419BA1E40D42C00166822 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1264199B1E40D42B00166822;
+					};
+				};
+			};
+			buildConfigurationList = 126419971E40D42B00166822 /* Build configuration list for PBXProject "PRGValidationField-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 126419931E40D42B00166822;
+			productRefGroup = 1264199D1E40D42B00166822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1264199B1E40D42B00166822 /* PRGValidationField-Example */,
+				126419AF1E40D42B00166822 /* PRGValidationField-ExampleTests */,
+				126419BA1E40D42C00166822 /* PRGValidationField-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1264199A1E40D42B00166822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126419E61E40D4A000166822 /* PRGValidationField.xib in Resources */,
+				126419D91E40D43700166822 /* Nunito-Medium.ttf in Resources */,
+				126419AA1E40D42B00166822 /* LaunchScreen.storyboard in Resources */,
+				126419EB1E40D4A000166822 /* PRGVFValid@2x.png in Resources */,
+				126419E91E40D4A000166822 /* PRGVFInvalid@3x.png in Resources */,
+				126419E71E40D4A000166822 /* PRGVFInvalid.png in Resources */,
+				126419D81E40D43700166822 /* Nunito-Light.ttf in Resources */,
+				126419D61E40D43700166822 /* Nunito-Bold.ttf in Resources */,
+				126419DB1E40D43700166822 /* Nunito-SemiBold.ttf in Resources */,
+				126419A71E40D42B00166822 /* Assets.xcassets in Resources */,
+				126419D71E40D43700166822 /* Nunito-ExtraBold.ttf in Resources */,
+				126419DA1E40D43700166822 /* Nunito-Regular.ttf in Resources */,
+				126419A51E40D42B00166822 /* Main.storyboard in Resources */,
+				126419E81E40D4A000166822 /* PRGVFInvalid@2x.png in Resources */,
+				126419D51E40D43700166822 /* Nunito-Black.ttf in Resources */,
+				126419EC1E40D4A000166822 /* PRGVFValid@3x.png in Resources */,
+				126419EA1E40D4A000166822 /* PRGVFValid.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126419AE1E40D42B00166822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126419B91E40D42C00166822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		126419981E40D42B00166822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126419E51E40D4A000166822 /* PRGValidationField.swift in Sources */,
+				126419A21E40D42B00166822 /* ViewController.swift in Sources */,
+				126419A01E40D42B00166822 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126419AC1E40D42B00166822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126419B51E40D42B00166822 /* PRGValidationField_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126419B71E40D42C00166822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126419C01E40D42C00166822 /* PRGValidationField_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		126419B21E40D42B00166822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1264199B1E40D42B00166822 /* PRGValidationField-Example */;
+			targetProxy = 126419B11E40D42B00166822 /* PBXContainerItemProxy */;
+		};
+		126419BD1E40D42C00166822 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1264199B1E40D42B00166822 /* PRGValidationField-Example */;
+			targetProxy = 126419BC1E40D42C00166822 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		126419A31E40D42B00166822 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126419A41E40D42B00166822 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		126419A81E40D42B00166822 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126419A91E40D42B00166822 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		126419C21E40D42C00166822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		126419C31E40D42C00166822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		126419C51E40D42C00166822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PRGValidationField-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programize.PRGValidationField-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		126419C61E40D42C00166822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "PRGValidationField-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programize.PRGValidationField-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		126419C81E40D42C00166822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PRGValidationField-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programize.PRGValidationField-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRGValidationField-Example.app/PRGValidationField-Example";
+			};
+			name = Debug;
+		};
+		126419C91E40D42C00166822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "PRGValidationField-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programize.PRGValidationField-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRGValidationField-Example.app/PRGValidationField-Example";
+			};
+			name = Release;
+		};
+		126419CB1E40D42C00166822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "PRGValidationField-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programize.PRGValidationField-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "PRGValidationField-Example";
+			};
+			name = Debug;
+		};
+		126419CC1E40D42C00166822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "PRGValidationField-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.programize.PRGValidationField-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "PRGValidationField-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126419971E40D42B00166822 /* Build configuration list for PBXProject "PRGValidationField-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126419C21E40D42C00166822 /* Debug */,
+				126419C31E40D42C00166822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126419C41E40D42C00166822 /* Build configuration list for PBXNativeTarget "PRGValidationField-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126419C51E40D42C00166822 /* Debug */,
+				126419C61E40D42C00166822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		126419C71E40D42C00166822 /* Build configuration list for PBXNativeTarget "PRGValidationField-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126419C81E40D42C00166822 /* Debug */,
+				126419C91E40D42C00166822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		126419CA1E40D42C00166822 /* Build configuration list for PBXNativeTarget "PRGValidationField-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126419CB1E40D42C00166822 /* Debug */,
+				126419CC1E40D42C00166822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 126419941E40D42B00166822 /* Project object */;
+}
