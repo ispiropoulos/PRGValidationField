@@ -14,13 +14,6 @@
 		126419AA1E40D42B00166822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126419A81E40D42B00166822 /* LaunchScreen.storyboard */; };
 		126419B51E40D42B00166822 /* PRGValidationField_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126419B41E40D42B00166822 /* PRGValidationField_ExampleTests.swift */; };
 		126419C01E40D42C00166822 /* PRGValidationField_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126419BF1E40D42C00166822 /* PRGValidationField_ExampleUITests.swift */; };
-		126419D51E40D43700166822 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419CD1E40D43700166822 /* Nunito-Black.ttf */; };
-		126419D61E40D43700166822 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419CE1E40D43700166822 /* Nunito-Bold.ttf */; };
-		126419D71E40D43700166822 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419CF1E40D43700166822 /* Nunito-ExtraBold.ttf */; };
-		126419D81E40D43700166822 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419D01E40D43700166822 /* Nunito-Light.ttf */; };
-		126419D91E40D43700166822 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419D11E40D43700166822 /* Nunito-Medium.ttf */; };
-		126419DA1E40D43700166822 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419D21E40D43700166822 /* Nunito-Regular.ttf */; };
-		126419DB1E40D43700166822 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419D31E40D43700166822 /* Nunito-SemiBold.ttf */; };
 		126419E51E40D4A000166822 /* PRGValidationField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126419DD1E40D4A000166822 /* PRGValidationField.swift */; };
 		126419E61E40D4A000166822 /* PRGValidationField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 126419DE1E40D4A000166822 /* PRGValidationField.xib */; };
 		126419E71E40D4A000166822 /* PRGVFInvalid.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419DF1E40D4A000166822 /* PRGVFInvalid.png */; };
@@ -29,6 +22,13 @@
 		126419EA1E40D4A000166822 /* PRGVFValid.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419E21E40D4A000166822 /* PRGVFValid.png */; };
 		126419EB1E40D4A000166822 /* PRGVFValid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419E31E40D4A000166822 /* PRGVFValid@2x.png */; };
 		126419EC1E40D4A000166822 /* PRGVFValid@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 126419E41E40D4A000166822 /* PRGVFValid@3x.png */; };
+		126419F51E41D4AB00166822 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419EE1E41D4AB00166822 /* Nunito-Black.ttf */; };
+		126419F61E41D4AB00166822 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419EF1E41D4AB00166822 /* Nunito-Bold.ttf */; };
+		126419F71E41D4AB00166822 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419F01E41D4AB00166822 /* Nunito-ExtraBold.ttf */; };
+		126419F81E41D4AB00166822 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419F11E41D4AB00166822 /* Nunito-Light.ttf */; };
+		126419F91E41D4AB00166822 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419F21E41D4AB00166822 /* Nunito-Medium.ttf */; };
+		126419FA1E41D4AB00166822 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419F31E41D4AB00166822 /* Nunito-Regular.ttf */; };
+		126419FB1E41D4AB00166822 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 126419F41E41D4AB00166822 /* Nunito-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,13 +62,6 @@
 		126419BB1E40D42C00166822 /* PRGValidationField-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PRGValidationField-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		126419BF1E40D42C00166822 /* PRGValidationField_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRGValidationField_ExampleUITests.swift; sourceTree = "<group>"; };
 		126419C11E40D42C00166822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		126419CD1E40D43700166822 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
-		126419CE1E40D43700166822 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
-		126419CF1E40D43700166822 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
-		126419D01E40D43700166822 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
-		126419D11E40D43700166822 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
-		126419D21E40D43700166822 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
-		126419D31E40D43700166822 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
 		126419DD1E40D4A000166822 /* PRGValidationField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRGValidationField.swift; sourceTree = "<group>"; };
 		126419DE1E40D4A000166822 /* PRGValidationField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRGValidationField.xib; sourceTree = "<group>"; };
 		126419DF1E40D4A000166822 /* PRGVFInvalid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRGVFInvalid.png; sourceTree = "<group>"; };
@@ -77,6 +70,13 @@
 		126419E21E40D4A000166822 /* PRGVFValid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PRGVFValid.png; sourceTree = "<group>"; };
 		126419E31E40D4A000166822 /* PRGVFValid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFValid@2x.png"; sourceTree = "<group>"; };
 		126419E41E40D4A000166822 /* PRGVFValid@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PRGVFValid@3x.png"; sourceTree = "<group>"; };
+		126419EE1E41D4AB00166822 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		126419EF1E41D4AB00166822 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		126419F01E41D4AB00166822 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		126419F11E41D4AB00166822 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		126419F21E41D4AB00166822 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		126419F31E41D4AB00166822 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		126419F41E41D4AB00166822 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +127,8 @@
 		1264199E1E40D42B00166822 /* PRGValidationField-Example */ = {
 			isa = PBXGroup;
 			children = (
+				126419ED1E41D4AB00166822 /* Fonts */,
 				126419DC1E40D4A000166822 /* PRGValidationField */,
-				126419D41E40D43700166822 /* Fonts */,
 				1264199F1E40D42B00166822 /* AppDelegate.swift */,
 				126419A11E40D42B00166822 /* ViewController.swift */,
 				126419A31E40D42B00166822 /* Main.storyboard */,
@@ -157,21 +157,6 @@
 			path = "PRGValidationField-ExampleUITests";
 			sourceTree = "<group>";
 		};
-		126419D41E40D43700166822 /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				126419CD1E40D43700166822 /* Nunito-Black.ttf */,
-				126419CE1E40D43700166822 /* Nunito-Bold.ttf */,
-				126419CF1E40D43700166822 /* Nunito-ExtraBold.ttf */,
-				126419D01E40D43700166822 /* Nunito-Light.ttf */,
-				126419D11E40D43700166822 /* Nunito-Medium.ttf */,
-				126419D21E40D43700166822 /* Nunito-Regular.ttf */,
-				126419D31E40D43700166822 /* Nunito-SemiBold.ttf */,
-			);
-			name = Fonts;
-			path = ../../JSValidationField/JSValidationField/Fonts;
-			sourceTree = "<group>";
-		};
 		126419DC1E40D4A000166822 /* PRGValidationField */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +170,20 @@
 				126419E41E40D4A000166822 /* PRGVFValid@3x.png */,
 			);
 			path = PRGValidationField;
+			sourceTree = "<group>";
+		};
+		126419ED1E41D4AB00166822 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				126419EE1E41D4AB00166822 /* Nunito-Black.ttf */,
+				126419EF1E41D4AB00166822 /* Nunito-Bold.ttf */,
+				126419F01E41D4AB00166822 /* Nunito-ExtraBold.ttf */,
+				126419F11E41D4AB00166822 /* Nunito-Light.ttf */,
+				126419F21E41D4AB00166822 /* Nunito-Medium.ttf */,
+				126419F31E41D4AB00166822 /* Nunito-Regular.ttf */,
+				126419F41E41D4AB00166822 /* Nunito-SemiBold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,22 +294,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				126419E61E40D4A000166822 /* PRGValidationField.xib in Resources */,
-				126419D91E40D43700166822 /* Nunito-Medium.ttf in Resources */,
 				126419AA1E40D42B00166822 /* LaunchScreen.storyboard in Resources */,
 				126419EB1E40D4A000166822 /* PRGVFValid@2x.png in Resources */,
+				126419FB1E41D4AB00166822 /* Nunito-SemiBold.ttf in Resources */,
 				126419E91E40D4A000166822 /* PRGVFInvalid@3x.png in Resources */,
 				126419E71E40D4A000166822 /* PRGVFInvalid.png in Resources */,
-				126419D81E40D43700166822 /* Nunito-Light.ttf in Resources */,
-				126419D61E40D43700166822 /* Nunito-Bold.ttf in Resources */,
-				126419DB1E40D43700166822 /* Nunito-SemiBold.ttf in Resources */,
+				126419F71E41D4AB00166822 /* Nunito-ExtraBold.ttf in Resources */,
 				126419A71E40D42B00166822 /* Assets.xcassets in Resources */,
-				126419D71E40D43700166822 /* Nunito-ExtraBold.ttf in Resources */,
-				126419DA1E40D43700166822 /* Nunito-Regular.ttf in Resources */,
+				126419F51E41D4AB00166822 /* Nunito-Black.ttf in Resources */,
+				126419F81E41D4AB00166822 /* Nunito-Light.ttf in Resources */,
 				126419A51E40D42B00166822 /* Main.storyboard in Resources */,
+				126419FA1E41D4AB00166822 /* Nunito-Regular.ttf in Resources */,
 				126419E81E40D4A000166822 /* PRGVFInvalid@2x.png in Resources */,
-				126419D51E40D43700166822 /* Nunito-Black.ttf in Resources */,
 				126419EC1E40D4A000166822 /* PRGVFValid@3x.png in Resources */,
+				126419F61E41D4AB00166822 /* Nunito-Bold.ttf in Resources */,
 				126419EA1E40D4A000166822 /* PRGVFValid.png in Resources */,
+				126419F91E41D4AB00166822 /* Nunito-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PRGValidationField-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.programize.PRGValidationField-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -500,6 +500,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "PRGValidationField-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.programize.PRGValidationField-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -580,6 +581,7 @@
 				126419C61E40D42C00166822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		126419C71E40D42C00166822 /* Build configuration list for PBXNativeTarget "PRGValidationField-ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -588,6 +590,7 @@
 				126419C91E40D42C00166822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		126419CA1E40D42C00166822 /* Build configuration list for PBXNativeTarget "PRGValidationField-ExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -596,6 +599,7 @@
 				126419CC1E40D42C00166822 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

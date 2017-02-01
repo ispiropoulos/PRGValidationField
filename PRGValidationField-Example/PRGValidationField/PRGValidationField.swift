@@ -22,7 +22,8 @@ enum ValidationMode: Int {
         }
         switch self {
         case .name:
-            return text.replacingOccurrences(of: " ", with: "") != ""
+            let numberCharacters = CharacterSet.decimalDigits
+            return text.replacingOccurrences(of: " ", with: "") != "" && text.rangeOfCharacter(from: numberCharacters) == nil
         case .email:
             return text.contains("@") && text.contains(".")
         case .password:
@@ -82,6 +83,25 @@ class PRGValidationField: UIView, UITextFieldDelegate {
      
      If no font is found, the fallback font is the system font.
     */
+    
+    @IBInspectable var textFont: String = "Helvetica,15" {
+        didSet {
+            let fontComponents = titleFont.components(separatedBy: ",")
+            if fontComponents.count == 2 {
+                if let newFont = UIFont(name: fontComponents[0] , size: CGFloat((fontComponents[1] as NSString).doubleValue)) {
+                    valueField.font = newFont
+                } else {
+                    valueField.font = UIFont.systemFont(ofSize: 13)
+                }
+                
+            } else {
+                valueField.font = UIFont.systemFont(ofSize: 13)
+            }
+            
+        }
+    }
+
+    
     @IBInspectable var titleFont: String = "Helvetica,15" {
         didSet {
             let fontComponents = titleFont.components(separatedBy: ",")
