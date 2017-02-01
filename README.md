@@ -122,4 +122,4 @@ Coming soon.
 We welcome all contributions. Please contanct me or submit a pull request, and I will give you an e-Cookie :)
 
 ## License
-`PRGValidationField` is made for Programize LLC by John Spiropoulos and it is available under the MIT license.
+`PRGValidationField` is made for [Programize LLC](https://www.programize.com) by John Spiropoulos and it is available under the MIT license.
