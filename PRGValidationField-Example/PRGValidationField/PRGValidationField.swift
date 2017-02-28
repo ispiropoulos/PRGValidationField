@@ -25,14 +25,20 @@ enum ValidationMode: Int {
             let numberCharacters = CharacterSet.decimalDigits
             return text.replacingOccurrences(of: " ", with: "") != "" && text.rangeOfCharacter(from: numberCharacters) == nil
         case .email:
-            return text.contains("@") && text.contains(".")
+            return isValidEmail(email: text)
         case .password:
             return text.characters.count >= 6
         case .confirmPassword:
             return passToConfirm != nil && passToConfirm == text
             }
     }
-    
+
+    func isValidEmail(email: String) -> Bool {
+        let regex = "[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+        let predicate = NSPredicate(format:"SELF MATCHES %@", regex)
+        return predicate.evaluate(with: email)
+    }
+
 }
 
 @IBDesignable
