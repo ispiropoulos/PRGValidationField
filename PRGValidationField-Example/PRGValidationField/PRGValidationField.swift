@@ -16,7 +16,7 @@ enum ValidationMode: Int {
     
     case name = 0,email,password,confirmPassword
     
-    func validate(_ text: String, passToConfirm: String?) -> Bool? {
+    func validate(_ text: String, passToConfirm: String?, minimumPasswordLength: Int) -> Bool? {
         if text == "" {
             return nil
         }
@@ -27,7 +27,7 @@ enum ValidationMode: Int {
         case .email:
             return isValidEmail(email: text)
         case .password:
-            return text.characters.count >= 6
+            return text.characters.count >= minimumPasswordLength
         case .confirmPassword:
             return passToConfirm != nil && passToConfirm == text
             }
@@ -56,6 +56,9 @@ class PRGValidationField: UIView, UITextFieldDelegate {
     // The view and it's image used to show validation indicators
     private var rightView: UIView!
     private var rightImageView: UIImageView!
+
+    // Minimum length for password field, default value 6
+    private var minimumPasswordLength: Int = 6
     
     /* Inspectable variable to set validation mode (See ValidationMode Enum)
      0 = Name , Surname
@@ -224,6 +227,13 @@ class PRGValidationField: UIView, UITextFieldDelegate {
     @IBInspectable var invalidBgColor: UIColor = UIColor.red
     @IBInspectable var invalidTextColor: UIColor = UIColor.red
     @IBInspectable var invalidImage: UIImage? = UIImage(named: "PRGVFInvalid")
+
+    // Minimum length for password field
+    @IBInspectable var passwordMinLength: Int = 6 {
+        didSet {
+            minimumPasswordLength = passwordMinLength
+        }
+    }
     
     // getter for textfield's text
     public var text: String? {
@@ -392,7 +402,9 @@ class PRGValidationField: UIView, UITextFieldDelegate {
             otherPasswordField?.isValid = nil
         }
         if validationMode == .confirmPassword {
-            if validationMode.validate(textField.text!, passToConfirm: otherPasswordField?.text) == true {
+            if validationMode.validate(textField.text!,
+                                       passToConfirm: otherPasswordField?.text,
+                                       minimumPasswordLength: minimumPasswordLength) == true {
                 _ = textFieldShouldReturn(textField)
             } else {
                 isValid = nil
@@ -407,7 +419,9 @@ class PRGValidationField: UIView, UITextFieldDelegate {
     }
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        isValid = validationMode.validate(textField.text!, passToConfirm: otherPasswordField?.text)
+        isValid = validationMode.validate(textField.text!,
+                                          passToConfirm: otherPasswordField?.text,
+                                          minimumPasswordLength: minimumPasswordLength)
     }
    
 }
