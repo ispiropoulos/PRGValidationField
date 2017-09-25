@@ -392,7 +392,7 @@ class PRGValidationField: UIView, UITextFieldDelegate {
         
     }
     
-    func textFieldDidEdit(_ textField: UITextField) {
+    @objc func textFieldDidEdit(_ textField: UITextField) {
         valueField.layer.borderColor = borderColor.cgColor
         valueField.backgroundColor = bgColor
         valueField.textColor = textColor
